@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		167511C4053EF0BBA9E2E7F5 /* Pods_amapDemo_amapDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1186BC318014B6813FCE254D /* Pods_amapDemo_amapDemoUITests.framework */; };
+		1C6C5C949D544EA172944220 /* Pods_amapDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8053B981F8701128F54AA9D9 /* Pods_amapDemoTests.framework */; };
+		B6B4B5723533A780BAA0F48E /* Pods_amapDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 704475CEEEEB6F82D0898E34 /* Pods_amapDemo.framework */; };
+		CE7C12A026D4918E0025E823 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7C129F26D4918E0025E823 /* AppDelegate.swift */; };
+		CE7C12A426D4918E0025E823 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7C12A326D4918E0025E823 /* ViewController.swift */; };
+		CE7C12A926D491920025E823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7C12A826D491920025E823 /* Assets.xcassets */; };
+		CE7C12AC26D491920025E823 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7C12AA26D491920025E823 /* LaunchScreen.storyboard */; };
+		CE7C12B726D491920025E823 /* amapDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7C12B626D491920025E823 /* amapDemoTests.swift */; };
+		CE7C12C226D491920025E823 /* amapDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7C12C126D491920025E823 /* amapDemoUITests.swift */; };
+		CE7C12D026D493D70025E823 /* example.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7C12CF26D493D70025E823 /* example.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE7C12B326D491920025E823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7C129426D4918D0025E823 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE7C129B26D4918D0025E823;
+			remoteInfo = amapDemo;
+		};
+		CE7C12BE26D491920025E823 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE7C129426D4918D0025E823 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE7C129B26D4918D0025E823;
+			remoteInfo = amapDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1186BC318014B6813FCE254D /* Pods_amapDemo_amapDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amapDemo_amapDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		704475CEEEEB6F82D0898E34 /* Pods_amapDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amapDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		748516287D4C5E3BB0C7BF82 /* Pods-amapDemo-amapDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amapDemo-amapDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-amapDemo-amapDemoUITests/Pods-amapDemo-amapDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8053B981F8701128F54AA9D9 /* Pods_amapDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_amapDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88A5AC91A0E3A915E0883F9E /* Pods-amapDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amapDemoTests.release.xcconfig"; path = "Target Support Files/Pods-amapDemoTests/Pods-amapDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		97BA21F374DC42CC1A4C3CDF /* Pods-amapDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amapDemo.debug.xcconfig"; path = "Target Support Files/Pods-amapDemo/Pods-amapDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9D3B390FFB8A797C974DACAC /* Pods-amapDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amapDemo.release.xcconfig"; path = "Target Support Files/Pods-amapDemo/Pods-amapDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B7788F1DE403790B9B95B751 /* Pods-amapDemo-amapDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amapDemo-amapDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-amapDemo-amapDemoUITests/Pods-amapDemo-amapDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BFC0521517C780C89BAAC896 /* Pods-amapDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-amapDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-amapDemoTests/Pods-amapDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE7C129C26D4918D0025E823 /* amapDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = amapDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7C129F26D4918E0025E823 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE7C12A326D4918E0025E823 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE7C12A826D491920025E823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE7C12AB26D491920025E823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE7C12AD26D491920025E823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7C12B226D491920025E823 /* amapDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = amapDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7C12B626D491920025E823 /* amapDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amapDemoTests.swift; sourceTree = "<group>"; };
+		CE7C12B826D491920025E823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7C12BD26D491920025E823 /* amapDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = amapDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7C12C126D491920025E823 /* amapDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amapDemoUITests.swift; sourceTree = "<group>"; };
+		CE7C12C326D491920025E823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE7C12CF26D493D70025E823 /* example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = example.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE7C129926D4918D0025E823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B4B5723533A780BAA0F48E /* Pods_amapDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7C12AF26D491920025E823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6C5C949D544EA172944220 /* Pods_amapDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7C12BA26D491920025E823 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				167511C4053EF0BBA9E2E7F5 /* Pods_amapDemo_amapDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F7FF390C6F1CDB59C2E53CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97BA21F374DC42CC1A4C3CDF /* Pods-amapDemo.debug.xcconfig */,
+				9D3B390FFB8A797C974DACAC /* Pods-amapDemo.release.xcconfig */,
+				748516287D4C5E3BB0C7BF82 /* Pods-amapDemo-amapDemoUITests.debug.xcconfig */,
+				B7788F1DE403790B9B95B751 /* Pods-amapDemo-amapDemoUITests.release.xcconfig */,
+				BFC0521517C780C89BAAC896 /* Pods-amapDemoTests.debug.xcconfig */,
+				88A5AC91A0E3A915E0883F9E /* Pods-amapDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		84C265C8C1A26A7F5BBD1171 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				704475CEEEEB6F82D0898E34 /* Pods_amapDemo.framework */,
+				1186BC318014B6813FCE254D /* Pods_amapDemo_amapDemoUITests.framework */,
+				8053B981F8701128F54AA9D9 /* Pods_amapDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE7C129326D4918D0025E823 = {
+			isa = PBXGroup;
+			children = (
+				CE7C129E26D4918D0025E823 /* amapDemo */,
+				CE7C12B526D491920025E823 /* amapDemoTests */,
+				CE7C12C026D491920025E823 /* amapDemoUITests */,
+				CE7C129D26D4918D0025E823 /* Products */,
+				7F7FF390C6F1CDB59C2E53CD /* Pods */,
+				84C265C8C1A26A7F5BBD1171 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE7C129D26D4918D0025E823 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE7C129C26D4918D0025E823 /* amapDemo.app */,
+				CE7C12B226D491920025E823 /* amapDemoTests.xctest */,
+				CE7C12BD26D491920025E823 /* amapDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE7C129E26D4918D0025E823 /* amapDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CE7C129F26D4918E0025E823 /* AppDelegate.swift */,
+				CE7C12A326D4918E0025E823 /* ViewController.swift */,
+				CE7C12A826D491920025E823 /* Assets.xcassets */,
+				CE7C12AA26D491920025E823 /* LaunchScreen.storyboard */,
+				CE7C12AD26D491920025E823 /* Info.plist */,
+				CE7C12CF26D493D70025E823 /* example.swift */,
+			);
+			path = amapDemo;
+			sourceTree = "<group>";
+		};
+		CE7C12B526D491920025E823 /* amapDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE7C12B626D491920025E823 /* amapDemoTests.swift */,
+				CE7C12B826D491920025E823 /* Info.plist */,
+			);
+			path = amapDemoTests;
+			sourceTree = "<group>";
+		};
+		CE7C12C026D491920025E823 /* amapDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE7C12C126D491920025E823 /* amapDemoUITests.swift */,
+				CE7C12C326D491920025E823 /* Info.plist */,
+			);
+			path = amapDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE7C129B26D4918D0025E823 /* amapDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7C12C626D491920025E823 /* Build configuration list for PBXNativeTarget "amapDemo" */;
+			buildPhases = (
+				04AA387EDB21A1E2BB8CA6B6 /* [CP] Check Pods Manifest.lock */,
+				CE7C129826D4918D0025E823 /* Sources */,
+				CE7C129926D4918D0025E823 /* Frameworks */,
+				CE7C129A26D4918D0025E823 /* Resources */,
+				2DD57C26FF3F8658128E1DF7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = amapDemo;
+			productName = amapDemo;
+			productReference = CE7C129C26D4918D0025E823 /* amapDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE7C12B126D491920025E823 /* amapDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7C12C926D491920025E823 /* Build configuration list for PBXNativeTarget "amapDemoTests" */;
+			buildPhases = (
+				79608569FF53553E64CDD26B /* [CP] Check Pods Manifest.lock */,
+				CE7C12AE26D491920025E823 /* Sources */,
+				CE7C12AF26D491920025E823 /* Frameworks */,
+				CE7C12B026D491920025E823 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE7C12B426D491920025E823 /* PBXTargetDependency */,
+			);
+			name = amapDemoTests;
+			productName = amapDemoTests;
+			productReference = CE7C12B226D491920025E823 /* amapDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE7C12BC26D491920025E823 /* amapDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7C12CC26D491920025E823 /* Build configuration list for PBXNativeTarget "amapDemoUITests" */;
+			buildPhases = (
+				8AE89265E68A79AF55370DEF /* [CP] Check Pods Manifest.lock */,
+				CE7C12B926D491920025E823 /* Sources */,
+				CE7C12BA26D491920025E823 /* Frameworks */,
+				CE7C12BB26D491920025E823 /* Resources */,
+				B7DD3BB6E09B9F7983E392F0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE7C12BF26D491920025E823 /* PBXTargetDependency */,
+			);
+			name = amapDemoUITests;
+			productName = amapDemoUITests;
+			productReference = CE7C12BD26D491920025E823 /* amapDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE7C129426D4918D0025E823 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CE7C129B26D4918D0025E823 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					CE7C12B126D491920025E823 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = CE7C129B26D4918D0025E823;
+					};
+					CE7C12BC26D491920025E823 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = CE7C129B26D4918D0025E823;
+					};
+				};
+			};
+			buildConfigurationList = CE7C129726D4918D0025E823 /* Build configuration list for PBXProject "amapDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE7C129326D4918D0025E823;
+			productRefGroup = CE7C129D26D4918D0025E823 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE7C129B26D4918D0025E823 /* amapDemo */,
+				CE7C12B126D491920025E823 /* amapDemoTests */,
+				CE7C12BC26D491920025E823 /* amapDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE7C129A26D4918D0025E823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7C12AC26D491920025E823 /* LaunchScreen.storyboard in Resources */,
+				CE7C12A926D491920025E823 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7C12B026D491920025E823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7C12BB26D491920025E823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04AA387EDB21A1E2BB8CA6B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-amapDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DD57C26FF3F8658128E1DF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amapDemo/Pods-amapDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amapDemo/Pods-amapDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-amapDemo/Pods-amapDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79608569FF53553E64CDD26B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-amapDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AE89265E68A79AF55370DEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-amapDemo-amapDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7DD3BB6E09B9F7983E392F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amapDemo-amapDemoUITests/Pods-amapDemo-amapDemoUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-amapDemo-amapDemoUITests/Pods-amapDemo-amapDemoUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-amapDemo-amapDemoUITests/Pods-amapDemo-amapDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE7C129826D4918D0025E823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7C12D026D493D70025E823 /* example.swift in Sources */,
+				CE7C12A426D4918E0025E823 /* ViewController.swift in Sources */,
+				CE7C12A026D4918E0025E823 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7C12AE26D491920025E823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7C12B726D491920025E823 /* amapDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7C12B926D491920025E823 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7C12C226D491920025E823 /* amapDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE7C12B426D491920025E823 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE7C129B26D4918D0025E823 /* amapDemo */;
+			targetProxy = CE7C12B326D491920025E823 /* PBXContainerItemProxy */;
+		};
+		CE7C12BF26D491920025E823 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE7C129B26D4918D0025E823 /* amapDemo */;
+			targetProxy = CE7C12BE26D491920025E823 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE7C12AA26D491920025E823 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE7C12AB26D491920025E823 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE7C12C426D491920025E823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE7C12C526D491920025E823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE7C12C726D491920025E823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97BA21F374DC42CC1A4C3CDF /* Pods-amapDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RAZKWLEFA;
+				INFOPLIST_FILE = amapDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amap.demo.amapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE7C12C826D491920025E823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D3B390FFB8A797C974DACAC /* Pods-amapDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RAZKWLEFA;
+				INFOPLIST_FILE = amapDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amap.demo.amapDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE7C12CA26D491920025E823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFC0521517C780C89BAAC896 /* Pods-amapDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = amapDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amap.demo.amapDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/amapDemo.app/amapDemo";
+			};
+			name = Debug;
+		};
+		CE7C12CB26D491920025E823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88A5AC91A0E3A915E0883F9E /* Pods-amapDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = amapDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amap.demo.amapDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/amapDemo.app/amapDemo";
+			};
+			name = Release;
+		};
+		CE7C12CD26D491920025E823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 748516287D4C5E3BB0C7BF82 /* Pods-amapDemo-amapDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = amapDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amap.demo.amapDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = amapDemo;
+			};
+			name = Debug;
+		};
+		CE7C12CE26D491920025E823 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7788F1DE403790B9B95B751 /* Pods-amapDemo-amapDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = amapDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amap.demo.amapDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = amapDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE7C129726D4918D0025E823 /* Build configuration list for PBXProject "amapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7C12C426D491920025E823 /* Debug */,
+				CE7C12C526D491920025E823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7C12C626D491920025E823 /* Build configuration list for PBXNativeTarget "amapDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7C12C726D491920025E823 /* Debug */,
+				CE7C12C826D491920025E823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7C12C926D491920025E823 /* Build configuration list for PBXNativeTarget "amapDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7C12CA26D491920025E823 /* Debug */,
+				CE7C12CB26D491920025E823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE7C12CC26D491920025E823 /* Build configuration list for PBXNativeTarget "amapDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7C12CD26D491920025E823 /* Debug */,
+				CE7C12CE26D491920025E823 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE7C129426D4918D0025E823 /* Project object */;
+}
