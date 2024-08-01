@@ -125,7 +125,8 @@ Demo中内置了通用的 `httpdns-domains.plist` 配置文件，只能解析部
 
 Demo采用cocoapods管理依赖库，运行前需先执行 `pod install` 命令安装依赖库
 然后 Xcode 打开 `httpdns_ios_demo.xcworkspace` 文件，即可运行该Demo，同时建议打开调试开关：
-![](https://github.com/user-attachments/assets/ed91057c-e014-4db6-8735-138a4a47d8fe)
+![](https://github.com/user-attachments/assets/80a9cb41-cd12-4eaa-bf7f-584f35d65fca)
+
 
 ## 演示的场景
 
