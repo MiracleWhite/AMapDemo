@@ -111,20 +111,21 @@ Demo的结构如下：做下说明：
 3.1 配置 accountID、secretKey
 
 Demo中内置了通用的 `AliyunEmasServices-Info.plist` 配置文件，可以替换为您自己的 `AliyunEmasServices-Info.plist` 文件，您可以在第一步创建APP后下载此文件，如图所示：
-![](/Users/miracle/Desktop/3C36BDC8-A2C1-4E03-8BF6-5F15E7B340AD.png)
+![](https://github.com/user-attachments/assets/2b789f7f-0571-4244-b1cf-6a733e93569c)
+
 
 另外，您还可以手动配置 accountID、secretKey，在`AliyunEmasServices-Info.plist` 配置文件内可以找到它们，如图所示：
-![](/Users/miracle/Desktop/CBEE8401-B2D3-417B-B11B-B3EDC5AA7D42.png)
+![](https://github.com/user-attachments/assets/d237b453-da16-4e7a-8314-1b4baa277bd0)
 
 3.2 配置需要解析的域名列表
 Demo中内置了通用的 `httpdns-domains.plist` 配置文件，只能解析部分已配置的域名，如需解析其他域名，需在上一步替换 `AliyunEmasServices-Info.plist` 文件后，进入EMAS后台配置域名列表，如图所示：
-![](/Users/miracle/Desktop/123.png)
+![](https://github.com/user-attachments/assets/766e3d90-ee8a-4ce8-a075-f95b6f2c7054)
 
 ### 4. 运行 Demo
 
 Demo采用cocoapods管理依赖库，运行前需先执行 `pod install` 命令安装依赖库
 然后 Xcode 打开 `httpdns_ios_demo.xcworkspace` 文件，即可运行该Demo，同时建议打开调试开关：
-![](/Users/miracle/Desktop/Simulator Screenshot - iPhone 15 Pro - 2024-08-01 at 11.14.43.png)
+![](https://github.com/user-attachments/assets/ed91057c-e014-4db6-8735-138a4a47d8fe)
 
 ## 演示的场景
 
