@@ -116,7 +116,7 @@ Demo的结构如下：做下说明：
 
 3.2 配置需要解析的域名列表
 
-Demo中内置了通用的 `httpdns-domains.plist` 配置文件，只能解析部分已配置的域名，如需解析其他域名，需进入EMAS后台配置域名列表添加要解析的域名，如图所示：
+Demo中内置了通用的 `httpdns-domains.plist` 配置文件，只能解析部分已配置的域名，如需解析其他域名，需进入EMAS后台`域名列表`添加要解析的域名，如图所示：
 
 ![](Image/httpdns_domainList.png)
 
