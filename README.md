@@ -118,6 +118,7 @@ Demo中内置了通用的 `AliyunEmasServices-Info.plist` 配置文件，可以�
 ![](https://github.com/user-attachments/assets/d237b453-da16-4e7a-8314-1b4baa277bd0)
 
 3.2 配置需要解析的域名列表
+
 Demo中内置了通用的 `httpdns-domains.plist` 配置文件，只能解析部分已配置的域名，如需解析其他域名，需在上一步替换 `AliyunEmasServices-Info.plist` 文件后，进入EMAS后台配置域名列表，如图所示：
 ![](https://github.com/user-attachments/assets/766e3d90-ee8a-4ce8-a075-f95b6f2c7054)
 
