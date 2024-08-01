@@ -108,13 +108,11 @@ Demo的结构如下：做下说明：
 
 3.1 配置 accountID、secretKey
 
-Demo中内置了通用的 `AliyunEmasServices-Info.plist` 配置文件，可以替换为您自己的 `AliyunEmasServices-Info.plist` 文件，您可以在第一步创建APP后下载此文件，如图所示：
+为了使Demo APP能够正常运行，您还需要配置您的accountID/secretKey信息，您可以分别从EMAS控制台“概览”和“鉴权配置”中找到它们，如图所示：
 
-![](Image/where_AliyunEmasServices-Info.png)
+![](Image/httpdns_accountID.png)
 
-另外，您还可以手动配置 accountID、secretKey，在`AliyunEmasServices-Info.plist` 配置文件内可以找到它们，如图所示：
-
-![](Image/where_accountID&secretKey.png)
+![](Image/httpdns_secretKey.png)
 
 3.2 配置需要解析的域名列表
 
