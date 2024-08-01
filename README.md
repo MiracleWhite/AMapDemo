@@ -1,5 +1,3 @@
-# AMapDemo
-
 # HTTPDNS Demo iOS 版
 
 
@@ -17,7 +15,7 @@
 
 <div align="center">
 
-<img src="https://github.com/user-attachments/assets/2b1732b1-48e5-4ecf-aa1b-a9334d452079">
+<img src="Image/httpdns_product_logo.png">
 
 </div>
 
@@ -111,29 +109,29 @@ Demo的结构如下：做下说明：
 3.1 配置 accountID、secretKey
 
 Demo中内置了通用的 `AliyunEmasServices-Info.plist` 配置文件，可以替换为您自己的 `AliyunEmasServices-Info.plist` 文件，您可以在第一步创建APP后下载此文件，如图所示：
-![](https://github.com/user-attachments/assets/2b789f7f-0571-4244-b1cf-6a733e93569c)
 
+![](Image/where_AliyunEmasServices-Info.png)
 
 另外，您还可以手动配置 accountID、secretKey，在`AliyunEmasServices-Info.plist` 配置文件内可以找到它们，如图所示：
-![](https://github.com/user-attachments/assets/d237b453-da16-4e7a-8314-1b4baa277bd0)
+
+![](Image/where_accountID&secretKey.png)
 
 3.2 配置需要解析的域名列表
 
 Demo中内置了通用的 `httpdns-domains.plist` 配置文件，只能解析部分已配置的域名，如需解析其他域名，需在上一步替换 `AliyunEmasServices-Info.plist` 文件后，进入EMAS后台配置域名列表，如图所示：
-![](https://github.com/user-attachments/assets/766e3d90-ee8a-4ce8-a075-f95b6f2c7054)
+
+![](Image/httpdns_domainList.png)
 
 ### 4. 运行 Demo
 
 Demo采用cocoapods管理依赖库，运行前需先执行 `pod install` 命令安装依赖库
 然后 Xcode 打开 `httpdns_ios_demo.xcworkspace` 文件，即可运行该Demo，同时建议打开调试开关：
+
 <div align="center">
 
-<img src="https://github.com/user-attachments/assets/952a5e9b-54f9-4add-a93f-1fe734bf84ef" width="300">
+<img src="Image/httpdns_logEnabel.png" width="300">
 
 </div>
-
-
-
 
 ## 演示的场景
 
@@ -195,6 +193,5 @@ Demo采用cocoapods管理依赖库，运行前需先执行 `pod install` 命令�
  - 官网：[《HTTPDNS》]( https://cn.aliyun.com/product/httpdns?spm=5176.7841952.765261.327.AS1VQb ) 
  - 钉钉技术支持：11777313（钉钉群号）
  - 官方技术博客：[《阿里云移动服务》]( https://yq.aliyun.com/teams/32 ) 
-
 
 
