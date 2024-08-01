@@ -127,7 +127,7 @@ Demo采用cocoapods管理依赖库，运行前需先执行 `pod install` 命令�
 然后 Xcode 打开 `httpdns_ios_demo.xcworkspace` 文件，即可运行该Demo，同时建议打开调试开关：
 <div align="center">
 
-<img src="https://github.com/user-attachments/assets/952a5e9b-54f9-4add-a93f-1fe734bf84ef" width="10">
+<img src="https://github.com/user-attachments/assets/952a5e9b-54f9-4add-a93f-1fe734bf84ef" width="300">
 
 </div>
 
